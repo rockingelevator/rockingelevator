@@ -5,6 +5,7 @@ import { Wrapper } from '../styledComponents/theme';
 import logo from '../assets/images/logo.svg';
 import logoElevator from '../assets/images/logo_elevator.svg';
 import aboutBg from '../assets/images/about_bg.jpg';
+import openButton from '../assets/images/btn_arrow_right.svg';
 
 const Logo = styled.img`
   position: absolute;
@@ -13,19 +14,18 @@ const Logo = styled.img`
   margin: -75px 0 0 -40px;
 `;
 
-const OpenButton = styled.a`
+const OpenButtonWrapper = styled.a`
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: #333333;
+  ${'' /* background-color: #333333;
   color: #E62047;
   border-radius: 20px;
   font-size: 16px;
+  padding: 2px 5px; */}
   left: 50%;
   bottom: 10%;
   margin-left: -15px;
-  padding: 2px 5px;
-  cursor: pointer;
 
   &:hover {
     opacity: 0.7;
@@ -34,6 +34,11 @@ const OpenButton = styled.a`
   @media (max-width: 480px) {
     padding: 4px 5px;
   }
+`;
+
+const OpenButton = styled.img`
+  width: 30px;
+  height: 30px;
 `;
 
 const AboutWrapper = styled.div`
@@ -161,6 +166,7 @@ const ButtonClose = styled.a`
   float: right;
   padding: 10px;
   font-size: 20px;
+  margin-right: -10px;
 `;
 
 const ContactLinks = styled.ul`
@@ -207,9 +213,9 @@ export default class IndexPage extends Component {
     return (
       <Wrapper>
         <Logo src={logo} width="80" height="150" alt="RockingElevator"/>
-        <OpenButton onClick={() => this.setState({showCV: true})}>
-          <i className="icon-right-open" />
-        </OpenButton>
+        <OpenButtonWrapper onClick={() => this.setState({showCV: true})}>
+          <OpenButton src={openButton} />
+        </OpenButtonWrapper>
         {showCV &&
           <AboutWrapper>
             <AboutBgWrapper />
