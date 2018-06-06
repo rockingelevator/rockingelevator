@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 
 import './index.css';
 import './transitions.css';
+import './typography.css';
 
 import { Wrapper } from '../styledComponents/theme';
 

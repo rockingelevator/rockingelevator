@@ -12,3 +12,8 @@
   from {opacity: 0; left: -100%;}
   to {opacity: 0.5; left: 0;}
 }
+
+@keyframes about-column-content-slidein {
+  from {opacity: 0; margin-left: -100px;}
+  to {opacity: 1; margin-left: 0;}
+}

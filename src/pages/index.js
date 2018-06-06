@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { Wrapper } from '../styledComponents/theme';
 import logo from '../assets/images/logo.svg';
+import logoElevator from '../assets/images/logo_elevator.svg';
 import aboutBg from '../assets/images/about_bg.jpg';
 
 const Logo = styled.img`
@@ -23,7 +24,7 @@ const OpenButton = styled.a`
   left: 50%;
   bottom: 10%;
   margin-left: -15px;
-  padding: 3px 5px;
+  padding: 2px 5px;
   cursor: pointer;
 
   &:hover {
@@ -53,8 +54,8 @@ const AboutBgWrapper = styled.div`
   background-position: right;
   background-repeat: no-repeat;
   animation-name: fadein;
-  animation-duration: 1s;
-  animation-delay: 0s;
+  animation-duration: 0.7s;
+  animation-delay: 0.3s;
   animation-fill-mode: forwards;
 `;
 
@@ -68,7 +69,7 @@ const ContentColumn = styled.div`
   position: absolute;
   background: white;
   animation-name: about-column-slidein;
-  animation-duration: 0.6s;
+  animation-duration: 0.4s;
   animation-delay: 0s;
   opacity: 0.7;
   animation-fill-mode: forwards;
@@ -122,6 +123,52 @@ const ColumnDecoration = styled.div`
   }
 `;
 
+const ContentWrapper = styled.div`
+  opacity: 0;
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  min-width: 400px;
+  left: 0;
+  padding: 40px;
+  box-sizing: border-box;
+  animation-name: about-column-content-slidein;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+`;
+
+const LogoElevator = styled.img`
+  width: 34px;
+  height: 45px;
+`;
+
+const ButtonClose = styled.a`
+  float: right;
+  padding: 10px;
+  font-size: 20px;
+`;
+
+const SocialLinks = styled.ul`
+  list-style-type: none;
+  margin: 50px 0 30px -10px;
+  column-count: 3;
+`;
+
+const SocialLinkItem = styled.li`
+  margin-right: 20px;
+  margin-bottom: 50px;
+`;
+
+const SocialLink = styled.a`
+  font-size: 18px;
+  padding: 10px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+`;
+
 
 export default class IndexPage extends Component {
   state = {
@@ -141,6 +188,57 @@ export default class IndexPage extends Component {
             <AboutBgWrapper />
             <ColumnDecoration />
             <ContentColumn />
+            <ContentWrapper>
+              <LogoElevator src={logoElevator}/>
+              <ButtonClose onClick={() => this.setState({showCV:false})}>
+                <i className="icon-close" />
+              </ButtonClose>
+              <h1>
+                Kirill<br/><strong>Meshkov</strong>
+              </h1>
+              <p>
+                <strong>2012 — 2018</strong><br />
+                <span className="emoji" role="img">🤡</span> Chief Creative Officer at&nbsp;
+                <a href="https://mediasapiens.de/" target="_blank" rel='noreferrer noopener'>Mediasapiens</a>
+              </p>
+              <p>
+                <strong>2008 — 2011</strong><br />
+                <span className="emoji" role="img">🤠</span> Lead UI/UX Designer at&nbsp;
+                <a href="http://meta.ua/" target="_blank" rel='noreferrer noopener'>Meta Ukraine</a>
+              </p>
+              <SocialLinks>
+                <SocialLinkItem>
+                  <SocialLink href="mailto:rockingelevator@gmail.com">
+                    <i className="icon-mail" />
+                  </SocialLink>
+                </SocialLinkItem>
+                <SocialLinkItem>
+                  <SocialLink href="https://t.me/rockingelevator">
+                    <i className="icon-paper-plane" />
+                  </SocialLink>
+                </SocialLinkItem>
+                <SocialLinkItem>
+                  <SocialLink href="https://dribbble.com/rockingelevator">
+                    <i className="icon-dribbble" />
+                  </SocialLink>
+                </SocialLinkItem>
+                <SocialLinkItem>
+                  <SocialLink href="https://twitter.com/moonk">
+                    <i className="icon-twitter" />
+                  </SocialLink>
+                </SocialLinkItem>
+                <SocialLinkItem>
+                  <SocialLink href="http://rockingelevator.tumblr.com/">
+                    <i className="icon-tumblr" />
+                  </SocialLink>
+                </SocialLinkItem>
+                <SocialLinkItem>
+                  <SocialLink href="https://www.linkedin.com/in/kirillmeshkov/">
+                    <i className="icon-linkedin" />
+                  </SocialLink>
+                </SocialLinkItem>
+              </SocialLinks>
+            </ContentWrapper>
           </AboutWrapper>
         }
       </Wrapper>
