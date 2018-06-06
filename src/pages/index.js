@@ -30,10 +30,6 @@ const OpenButtonWrapper = styled.a`
   &:hover {
     opacity: 0.7;
   }
-
-  @media (max-width: 480px) {
-    padding: 4px 5px;
-  }
 `;
 
 const OpenButton = styled.img`
