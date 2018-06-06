@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>favicon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1233.000000, -330.000000)">
+        <g id="Group" transform="translate(1233.000000, 330.000000)" fill="#333333">
+            <g id="logo_elevator" transform="translate(2.000000, 0.000000)">
+                <path d="M10,1 L2,1 L1,12 L11,12 L10,1 Z M1,0 C1.27809259,0.148595943 1.43834977,0 2,0 L9,0 C9.56112969,0 10.721894,0.14847175 11,0 L12.0546875,12 L11,12 L0,12 L1,0 Z" id="Rectangle" fill-rule="nonzero"></path>
+                <polygon id="Rectangle-Copy" transform="translate(6.027344, 13.971058) scale(1, -1) translate(-6.027344, -13.971058) " points="1.41819853 11.7026656 10.636489 11.7026656 12.0546875 16.2394504 0 16.2394504"></polygon>
+                <polygon id="Rectangle-2" points="3.18572564 1.95044427 9.06183631 1.95044427 9.06183631 2.93377762 3.18572564 2.93377762"></polygon>
+                <polygon id="Rectangle-3" points="7.94832527 1.95044427 9.06183631 1.95044427 9.7119844 9.10207325"></polygon>
+                <polygon id="Rectangle-3-Copy" transform="translate(3.352392, 5.526259) scale(-1, 1) translate(-3.352392, -5.526259) " points="2.47056274 1.95044427 3.58407378 1.95044427 4.23422187 9.10207325"></polygon>
+                <polygon id="Line-Copy" fill-rule="nonzero" points="5.52346478 10.4166212 7.74501504 4.97557819 6.7991718 5.1663214 7.39368007 2.10230789 5.08472982 2.13151919 4.74148654 6.4899903 5.81110237 6.19999039"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

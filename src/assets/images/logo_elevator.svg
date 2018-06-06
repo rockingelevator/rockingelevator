@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="45px" viewBox="0 0 34 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_elevator</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1145.000000, -330.000000)">
+        <g id="logo_elevator" transform="translate(1145.000000, 330.000000)" fill="#333333">
+            <path d="M27.5109329,1.95044427 L5.64661962,1.95044427 L2.17916314,33.1575526 L30.9783894,33.1575526 L27.5109329,1.95044427 Z M3.792997,0.971023791 C3.85258385,0.434742159 4.33565073,0 4.87546174,0 L28.2820908,0 C28.8203327,0 29.3049283,0.434378812 29.3645556,0.971023791 L33.1575526,35.1079968 L0,35.1079968 L3.792997,0.971023791 Z" id="Rectangle" fill-rule="nonzero"></path>
+            <path d="M5.25495446,35.1079968 L27.9025981,35.1079968 C28.7204073,35.1079968 29.4558248,35.6058987 29.7595515,36.3652155 L33.1575526,44.8602182 L0,44.8602182 L3.39800108,36.3652155 C3.70172778,35.6058987 4.43714528,35.1079968 5.25495446,35.1079968 Z" id="Rectangle-Copy" transform="translate(16.578776, 39.984107) scale(1, -1) translate(-16.578776, -39.984107) "></path>
+            <rect id="Rectangle-2" x="9.55717691" y="5.8513328" width="14.628332" height="2.95000005"></rect>
+            <polygon id="Rectangle-3" points="20.8449758 5.8513328 24.1855089 5.8513328 26.1359532 27.3062198"></polygon>
+            <polygon id="Rectangle-3-Copy" transform="translate(10.057177, 16.578776) scale(-1, 1) translate(-10.057177, -16.578776) " points="7.41168822 5.8513328 10.7522213 5.8513328 12.7026656 27.3062198"></polygon>
+            <polygon id="Line-Copy" fill-rule="nonzero" points="16.5703943 31.2498636 20.2350451 14.9267346 17.3975154 15.4989642 19.1810402 6.30692368 15.2541894 6.39455757 14.2244596 19.4699709 17.4333071 18.5999712"></polygon>
+        </g>
+    </g>
+</svg>
