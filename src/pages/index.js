@@ -30,6 +30,10 @@ const OpenButton = styled.a`
   &:hover {
     opacity: 0.7;
   }
+
+  @media (max-width: 480px) {
+    padding: 4px 5px;
+  }
 `;
 
 const AboutWrapper = styled.div`
@@ -136,6 +140,16 @@ const ContentWrapper = styled.div`
   animation-duration: 1s;
   animation-delay: 0s;
   animation-fill-mode: forwards;
+
+  @media (max-width: 480px) {
+    padding: 30px;
+    width: 100%;
+    min-width: auto;
+  }
+
+  @media (max-width: 320px) {
+    padding: 20px;
+  }
 `;
 
 const LogoElevator = styled.img`
