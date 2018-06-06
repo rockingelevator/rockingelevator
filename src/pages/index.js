@@ -163,20 +163,33 @@ const ButtonClose = styled.a`
   font-size: 20px;
 `;
 
+const ContactLinks = styled.ul`
+  margin: 50px 0 0 -10px;
+`;
+
 const SocialLinks = styled.ul`
-  list-style-type: none;
-  margin: 50px 0 30px -10px;
-  column-count: 3;
+  margin: 20px 0 30px -10px;
 `;
 
 const SocialLinkItem = styled.li`
+  display: inline-block;
   margin-right: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 `;
 
 const SocialLink = styled.a`
   font-size: 18px;
   padding: 10px;
+
+  &:hover {
+    opacity: 0.7;
+  }
+`;
+
+const ContactLink = styled.a`
+  font-size: 16px;
+  padding: 10px;
+  color: #4282FF;
 
   &:hover {
     opacity: 0.7;
@@ -220,17 +233,19 @@ export default class IndexPage extends Component {
                 <span className="emoji" role="img">🤠</span> Lead UI/UX Designer at&nbsp;
                 <a href="http://meta.ua/" target="_blank" rel='noreferrer noopener'>Meta Ukraine</a>
               </p>
-              <SocialLinks>
+              <ContactLinks>
                 <SocialLinkItem>
-                  <SocialLink href="mailto:rockingelevator@gmail.com">
+                  <ContactLink href="mailto:rockingelevator@gmail.com">
                     <i className="icon-mail" />
-                  </SocialLink>
+                  </ContactLink>
                 </SocialLinkItem>
                 <SocialLinkItem>
-                  <SocialLink href="https://t.me/rockingelevator">
+                  <ContactLink href="https://t.me/rockingelevator">
                     <i className="icon-paper-plane" />
-                  </SocialLink>
+                  </ContactLink>
                 </SocialLinkItem>
+              </ContactLinks>
+              <SocialLinks>
                 <SocialLinkItem>
                   <SocialLink href="https://dribbble.com/rockingelevator">
                     <i className="icon-dribbble" />
