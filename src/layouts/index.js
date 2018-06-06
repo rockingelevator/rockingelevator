@@ -13,12 +13,12 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Product Designer' },
+        { name: 'description', content: 'Designer' },
         { name: 'keywords', content: 'design, ui, ux' },
       ]}
     >
       <meta name="og:title" content="RockingElevator" />
-      <meta name="og:description" content="Product Designer" />
+      <meta name="og:description" content="Designer" />
       <meta name="og:image" content="http://rockingelevator.com/rockingelevator_post_cover.jpg" />
       <meta name="og:type" content="website" />
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
